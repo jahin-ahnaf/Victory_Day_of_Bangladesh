@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+nav{
+  color: white;
+  background: #00AB85;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  z-index: 2;
+}
+a{
+  transition-duration: 0.4s;
+  padding: 5px;
+  border-radius: 5px;
+}
+a:hover{
+  background: white;
+  color: #00AB85;
+}
+.menu3{
+  position: fixed;
+  right: 0;
+  margin-right: 10px;
+}
+#header{
+  padding: 50px;
+  background: #00CFA1;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+p{
+  text-align: center;
+  font-size: 34px;
+}
+#body{
+  font-size: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+.nav{
+  background: #00AB85;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: white;
+  padding: 30px;
+  display: block;
+  margin-right: -10000px;
+  transition-duration: 1s;
+}
+.nav2{
+  margin-right: 0px;
+}
+.block{
+  display: block;
+  line-height: 50px;
+  margin-top: 30px;
+}
+footer{
+  padding: 10px;
+  text-align: center;
+  background: #191919;
+  color: white;
+  font-weight: 500;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -10px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
